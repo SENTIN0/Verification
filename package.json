@@ -6,11 +6,11 @@
 
   "description": "Node.js server for tool status",
 
-  "main": "app.js",
+  "main": "main.js",
 
   "scripts": {
 
-    "start": "node app.js"
+    "start": "node main.js"
 
   },
 
