@@ -21,10 +21,26 @@ app.get('/status', (req, res) => {
   res.json(response);
 
 });
+app.get('/fibonacci', (req, res) => {
+
+    const response = {
+  
+      status: 'ok',
+  
+      tool: 'enabled',
+  
+      
+  
+      version: '1.0'
+  
+    };
+  
+    res.json(response);
+  
+  });
 
 app.listen(port, () => {
 
   console.log(`Server listening on port ${port}`);
 
 });
-
