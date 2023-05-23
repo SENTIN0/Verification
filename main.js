@@ -31,7 +31,7 @@ app.get('/fibonacci', (req, res) => {
   
       
   
-      version: '1.1'
+      version: '1.0'
   
     };
   
